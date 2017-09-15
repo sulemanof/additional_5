@@ -27,12 +27,7 @@ module.exports = function check(str, bracketsConfig) {
 			if (stack.length === 0 || stack.pop() !== exp) {
 				return false;
 			}
-		} 
+		}
 	}
 	return (stack.length === 0);
 }
-
-
-
-
-
